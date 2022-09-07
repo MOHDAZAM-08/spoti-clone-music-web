@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Music App</title>
+</head>
+<body>
+    <header>
+        <div class="menu_side">
+            <h1>Playlist</h1>
+            <div class="Playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Last listening</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Recommended</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+            </div>
+            <div class="menuSong">
+                <li class="SongItem">
+                    <span>01</span>
+                    <img src="img/1.jpg" alt="Arijit singh">
+                    <h5>Humdard by Arijit singh
+                        <div class="subtitle">Arijet singh</div>
+                        <i class="bi playListplay bi-play-circle-fill" id="1"></i>
+                    </h5>
+                </li> 
+                <li class="SongItem">
+                    <span>02</span>
+                    <img src="img/1.jpg" alt="Arijit singh">
+                    <h5>Humdard by Arijit singh
+                        <div class="subtitle">Arijet singh</div>
+                        <i class="bi playListplay bi-play-circle-fill" id="1"></i>
+                    </h5>
+                </li>
+                 <li class="SongItem">
+                    <span>03</span>
+                    <img src="img/1.jpg" alt="Arijit singh">
+                    <h5>Humdard by Arijit singh
+                        <div class="subtitle">Arijet singh</div>
+                        <i class="bi playListplay bi-play-circle-fill" id="1"></i>
+                    </h5>
+                </li> 
+                <li class="SongItem">
+                    <span>04</span>
+                    <img src="img/1.jpg" alt="Arijit singh">
+                    <h5>Humdard by Arijit singh
+                        <div class="subtitle">Arijet singh</div>
+                        <i class="bi playListplay bi-play-circle-fill" id="1"></i>
+                    </h5>
+                </li> 
+                <li class="SongItem">
+                    <span>05</span>
+                    <img src="img/1.jpg" alt="Arijit singh">
+                    <h5>Humdard by Arijit singh
+                        <div class="subtitle">Arijet singh</div>
+                        <i class="bi playListplay bi-play-circle-fill" id="1"></i>
+                    </h5>
+                </li> 
+                <li class="SongItem">
+                    <span>06</span>
+                    <img src="img/1.jpg" alt="Arijit singh">
+                    <h5>Humdard by Arijit singh
+                        <div class="subtitle">Arijet singh</div>
+                        <i class="bi playListplay bi-play-circle-fill" id="1"></i>
+                    </h5>
+                </li>
+
+            </div>
+        </div>
+
+        <div class="song_side">
+            <nav>
+                <ul>
+                    <li>Discover <span></span></li>
+                    <li>MY LIABRARY <span></span></li>
+                    <li>RADIO <span></span></li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search Music....">
+                </div>
+                <div class="user">
+                    <img src="logo.png" alt="user" title="Aadil khan">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>jubin nutiyal-song</h1>
+                <p>
+                    <!-- Jubin Nautiyal is an Indian playback singer and performer. In June 2022, he won the IIFA award for “Playback Singer ” for the song “Raataan Lambiyan.” He was awarded Upcoming Male Vocalist of the Year at 8th Mirchi Music Awards for his song "Zindagi Kuch Toh Bata" from Bajrangi Bhaijaan -->
+                </p>
+            </div>
+           
+        </div>
+
+
+        <div class="masterPlay">
+            <div class="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+
+            </div>
+            <img src="img/1.jpg" alt="Arijit singh">
+            <h5>Humdard by Arijit singh <br>
+                <div class="subtitle">Arijet singh</div>
+            </h5>
+            <div class="icon">
+                <i class="bi bi-skip-start-fill"></i>
+                <i class="bi bi-play-fill"></i>
+                <i class="bi bi-skip-end-fill"></i>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:00</span>
+            <div class="vol">
+                <i class="bi bi-volume-down-fill"></i>
+                <input type="range" id="vol" min="0" max="100">
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol_dot"></div>
+            </div>
+
+        </div>
+        
+    </header>
+    <script src="app.js"></script>
+</body>
+</html>
